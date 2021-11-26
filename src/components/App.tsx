@@ -1,7 +1,3 @@
-import React from 'react'
-import logo from './logo.svg'
-import tauriCircles from './tauri.svg'
-import tauriWord from './wordmark.svg'
 import './App.scss'
 
 function App() {
@@ -9,8 +5,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="inline-logo">
-          <img src={tauriCircles} className="App-logo rotate" alt="logo" />
-          <img src={tauriWord} className="App-logo smaller" alt="logo" />
+          <img src="tauri.svg" className="App-logo rotate" alt="logo" />
+          <img src="wordmark.svg" className="App-logo smaller" alt="logo" />
         </div>
         <a
           className="App-link"
@@ -20,7 +16,7 @@ function App() {
         >
           Learn Tauri
         </a>
-        <img src={logo} className="App-logo rotate" alt="logo" />
+        <img src="logo.svg" className="App-logo rotate" alt="logo" />
         <a
           className="App-link"
           href="https://reactjs.org"
