@@ -1,6 +1,6 @@
 {
   "package": {
-    "productName": "demo-tauri-app",
+    "productName": "tauri-redux-ts-starter",
     "version": "0.1.0"
   },
   "build": {
@@ -53,7 +53,7 @@
     },
     "windows": [
       {
-        "title": "Demo Tauri App",
+        "title": "Tauri Redux TS Starter",
         "width": 800,
         "height": 600,
         "resizable": true,
