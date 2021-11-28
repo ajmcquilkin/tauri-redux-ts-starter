@@ -17,9 +17,10 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "ESLINT_NO_DEV_ERRORS='true' react-scripts start",
     "dev": "ESLINT_NO_DEV_ERRORS='true' tauri dev",
-    "build": "react-scripts build",
+    "client:dev": "ESLINT_NO_DEV_ERRORS='true' react-scripts start",
+    "build": "tauri build",
+    "client:build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "tauri": "tauri"
